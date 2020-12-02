@@ -1,0 +1,101 @@
+.post{
+    width: 720px;
+    margin: 2rem 0;
+    background-color: #ffffff;
+    padding-bottom: 8px;
+    border: 0.5px solid #b9b9b9;
+    border-radius: 4px;
+}
+
+.post .post-header{
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.5px solid #b9b9b9;
+}
+
+.post .post-header img{
+    height: 48px;
+    border-radius: 24px;
+    margin-right: 2rem;
+}
+
+.post .post-body{
+    width: 100%;
+}
+
+.post .post-body img{
+    width: 100%;
+}
+
+.post .post-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+.post .post-footer button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.post .post-footer button ion-icon {
+    font-size: 24px;
+}
+
+.post .post-legend{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    padding: 0 2rem;
+}
+
+.post .post-comments div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 2rem;
+    padding: 0;
+}
+
+.post .post-comments div p,
+.post .post-comments div strong{
+    line-height: 0rem;
+}
+
+.post .post-comments div + div{
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.post .post-comments div img{
+    width: 5%;
+    border-radius: 24px;
+    margin-right: 0.3rem;
+}
+
+.post .post-comments div input{
+    background-color: transparent;
+    width: 85%;
+    border-radius: 8px;
+    padding: 4px;
+    height: 24px;
+    border: 0.5px solid #999;
+}
+
+.post .post-comments div button{
+    background-color: transparent;
+    width: 10%;
+    border:none;
+    cursor: pointer;    
+}

@@ -1,0 +1,71 @@
+
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:  0 4rem;
+    font-size: 1.8rem;
+    color: white;
+  }
+  
+  .App-header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    
+  }
+
+  .App-header div button{
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    height: 80%;
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+  }
+
+  .App-header div button:hover{
+      background-color: #555555;
+      color:#ffffff;
+
+  }
+  .App-header div button ion-icon{
+      font-size: 2rem;
+      color:#ffffff;
+  }
+
+  .App-header div img{
+    height: 60%;
+    border-radius: 60%;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .App-link {
+    color: #61dafb;
+    margin: 0 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+  
+  }
+  
+  header{
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+  }
+  
+  .App-logo {
+    height: 60%;
+    pointer-events: none;
+    margin-right: 4rem;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
