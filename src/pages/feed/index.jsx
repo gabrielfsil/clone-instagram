@@ -1,5 +1,5 @@
-import Post from "../../components/Post"
-import Story from "../../components/Story"
+import Post from "../../components/post"
+import Story from "../../components/story"
 
 
 const posts = [

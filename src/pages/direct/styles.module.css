@@ -1,0 +1,8 @@
+.direct{
+    width: 1000px;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}

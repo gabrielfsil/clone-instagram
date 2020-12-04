@@ -1,0 +1,33 @@
+
+.form{
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 2rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.image{
+    width: 5%;
+    border-radius: 24px;
+    margin-right: 0.3rem;
+}
+
+.input{
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 4px;
+    height: 24px;
+    border: none;
+    flex:1;
+}
+
+.button{
+    background-color: transparent;
+    width: 10%;
+    border:none;
+    cursor: pointer;    
+}
