@@ -16,7 +16,7 @@ function Post({ post }) {
         <div className={styles.post}>
             <Avatar profile={post.profile} />
             <div className={styles.postBody}>
-                <img className={styles.postBodyImg} src={post.image} atl="Primeiro Post" />
+                <img className={styles.postBodyImg} src={post.image} atl={post.legend ? post.legend : post.profile.name} />
             </div>
             <div className={styles.postFooter}>
                 <div>
@@ -41,7 +41,7 @@ function Post({ post }) {
             </div>
             <div >
                 <Comment comments={post.comments} />
-                <FormInput placeholder="Deixe seu comentário" textButton="Publicar" profile={profile} image />
+                <FormInput placeholder="Deixe seu comentário" textButton="Publicar" profile={profile} image onSubmit={() => { }} />
             </div>
         </div>
     )

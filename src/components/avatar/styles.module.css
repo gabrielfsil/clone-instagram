@@ -6,10 +6,34 @@
     justify-content: flex-start;
     padding: 0.5rem 1rem;
     border-bottom: 0.5px solid #b9b9b9;
+    cursor: pointer;
 }
 
 .image{
-    height: 48px;
-    border-radius: 24px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.outCircle{
+    border-radius: 48px;
+    height:48px;
+    width: 48px;
+    background-image: linear-gradient( 
+        to left bottom,#7a2eea, #f31673 , 
+       #fdcc63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 2rem;
+}
+
+.innerCicle{
+    border-radius: 44px;
+    height:44px;
+    width: 44px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

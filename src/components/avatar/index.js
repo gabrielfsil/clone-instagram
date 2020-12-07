@@ -6,7 +6,11 @@ function Avatar(props) {
     return (
 
         <div className={styles.header}>
-            <img className={styles.image} src={props.profile.photo} atl={props.profile.name} />
+            <div className={styles.outCircle}>
+                <div className={styles.innerCicle}>
+                    <img className={styles.image} src={props.profile.photo} atl={props.profile.name} />
+                </div>
+            </div>
             <p><strong>{props.profile.name}</strong></p>
         </div>
 

@@ -10,6 +10,11 @@ function Header() {
             <p>
                 Instacode
             </p>
+            <form onSubmit={e => {
+                e.preventDefault()
+            }}>
+                <input type="text" placeholder="&#128269; Search" />
+            </form>
             <div>
                 <button>
                     <ion-icon name="home-outline"></ion-icon>

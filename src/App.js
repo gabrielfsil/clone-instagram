@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Direct/>
-        {/* <Feed /> */}
+        {/* <Direct/> */}
+        <Feed />
       </main>
       <Footer />
     </div>
