@@ -41,6 +41,10 @@
     padding: 0 2rem;
 }
 
+.textLegend{
+    text-align: left;
+}
+
 .postComment{
     display: flex;
     flex-direction: column;

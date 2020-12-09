@@ -8,16 +8,16 @@
 
 
 main{
-  min-height: 90vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f0f0f0;
-  padding-top: 5vh;
+  padding: 2.5vh 0;
 }
 
 footer{
-  height: 5vh;
+  min-height: 10vh;
 }
 
 @keyframes App-logo-spin {

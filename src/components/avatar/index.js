@@ -8,7 +8,7 @@ function Avatar(props) {
         <div className={styles.header}>
             <div className={styles.outCircle}>
                 <div className={styles.innerCicle}>
-                    <img className={styles.image} src={props.profile.photo} atl={props.profile.name} />
+                    <img className={styles.image} src={props.profile.avatar} atl={props.profile.name} />
                 </div>
             </div>
             <p><strong>{props.profile.name}</strong></p>

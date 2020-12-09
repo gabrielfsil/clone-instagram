@@ -1,21 +1,10 @@
 import './App.css';
-import Header from './components/header';
-import Footer from './components/footer';
 
-import Feed from './pages/feed';
-import Direct from './pages/direct';
+import { Routes } from './router';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <main>
-        {/* <Direct/> */}
-        <Feed />
-      </main>
-      <Footer />
-    </div>
-  );
+
+  return <Routes />;
 }
 
 export default App;

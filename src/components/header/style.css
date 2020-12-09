@@ -8,6 +8,9 @@
     padding:  0 4rem;
     font-size: 1.8rem;
     color: white;
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
   }
   
   .App-header div{
@@ -44,6 +47,25 @@
       color:#ffffff;
 
   }
+
+  .App-header div button#exit{
+    background-color: rgb(145, 24, 24);
+    border:none;
+    cursor: pointer;
+    height: 80%;
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+  }
+  .App-header div button#exit ion-icon{
+    font-size: 2rem;
+    color:#ffffff;
+    margin-left: 8px;
+  }
+
   .App-header div button ion-icon{
       font-size: 2rem;
       color:#ffffff;
@@ -64,20 +86,15 @@
   
   }
   
-  header{
-    height: 5vh;
-    width: 100vw;
-    position: fixed;
-  }
   
+.App-logo {
+  height: 60%;
+  pointer-events: none;
+  margin-right: 4rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    height: 60%;
-    pointer-events: none;
-    margin-right: 4rem;
+    animation: App-logo-spin infinite 10s linear;
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 10s linear;
-    }
-  }
+}

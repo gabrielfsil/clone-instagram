@@ -4,51 +4,51 @@ import styles from './styles.module.css'
 const avatars = [
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
     {
         name: 'AppMasters',
-        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
     },
 ]
 

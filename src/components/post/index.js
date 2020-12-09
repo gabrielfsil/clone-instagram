@@ -14,9 +14,9 @@ function Post({ post }) {
 
     return (
         <div className={styles.post}>
-            <Avatar profile={post.profile} />
+            <Avatar profile={post.user} />
             <div className={styles.postBody}>
-                <img className={styles.postBodyImg} src={post.image} atl={post.legend ? post.legend : post.profile.name} />
+                <img className={styles.postBodyImg} src={post.imageUrl} atl={post.title ? post.title : "Post do Instagram"} />
             </div>
             <div className={styles.postFooter}>
                 <div>
@@ -37,10 +37,10 @@ function Post({ post }) {
                 </div>
             </div>
             <div className={styles.postLegend}>
-                <p><strong>{post.profile.name}: </strong>{post.legend}</p>
+                <p className={styles.textLegend}><strong>{post.user.name}: </strong>{`${post.title} \n\n ${post.description}`}</p>
             </div>
             <div >
-                <Comment comments={post.comments} />
+                <Comment comments={post.comments ? post.comments: [] } />
                 <FormInput placeholder="Deixe seu comentário" textButton="Publicar" profile={profile} image onSubmit={() => { }} />
             </div>
         </div>

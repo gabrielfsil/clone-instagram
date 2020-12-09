@@ -1,0 +1,71 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 
+        to left bottom,#7a2eea, #f31673 , 
+       #fdcc63);
+}
+
+.content{
+    background-color: #ffffff;
+    width: 420px;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.headerTitle{
+    font-size: 2.4rem;
+    color:#333;
+    text-align: center;
+}
+
+.headerSubtitle{
+    font-size: 1.6rem;
+    color: #555;
+    text-align: center;
+}
+
+.input{
+    border: none;
+    font-size: 1.4rem;
+    background-color: #f0f0f0;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    height: 54px;
+    border-radius: 8px;
+}
+
+.button{
+    cursor: pointer;
+    height: 54px;
+    margin:0.5rem 0;
+    border: none;
+    background-color: #7a2eea;
+    border-radius: 8px;
+    color:#ffffff;
+    font-size: 1.4rem;
+}
+
+
+.brand{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+    height: 48px;
+    width: 48px;
+    pointer-events: none;
+}
+
+.brandName{
+    font-family: 'Lobster', cursive;
+    color:#ffffff;
+    margin-left: 1rem;
+}
