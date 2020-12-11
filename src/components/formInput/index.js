@@ -13,7 +13,7 @@ function FormComment(props) {
                 <img className={styles.image} src={props.profile.photo} atl={props.profile.name} />
             }
             <input className={styles.input} type='text' onChange={e => props.onChange(e.target.value)} value={props.value} placeholder={props.placeholder} />
-            <button className={styles.button} type="submit">
+            <button className={props.value !== '' ? styles.activeButton :styles.button} disabled={props.value === ''} type="submit">
                 {props.textButton}
             </button>
         </form >

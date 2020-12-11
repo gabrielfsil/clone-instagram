@@ -9,12 +9,10 @@ function Message(props) {
                 <img className={styles.image} src={props.profile.photo} alt={props.profile.name} />
 
             }
-            <div className={styles.contentMessage}>
-                {
-                    props.message.map((message, index) => (
-                        <p key={index} className={styles.message}>{message}</p>
-                    ))
-                }
+            <div className={props.right ? styles.contentMessage : styles.contentMessageHost}>
+
+                <p className={styles.message}>{props.message}</p>
+
             </div>
         </div>
     )

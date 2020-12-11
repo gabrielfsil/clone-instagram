@@ -59,7 +59,13 @@
     flex-direction: row;
     align-items: center;
     color: #ffffff;
+    transition: 0.2s;
   }
+
+  .App-header div button#exit:hover{
+    background-color: rgb(184, 34, 34);
+  }
+
   .App-header div button#exit ion-icon{
     font-size: 2rem;
     color:#ffffff;

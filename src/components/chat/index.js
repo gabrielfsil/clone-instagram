@@ -8,56 +8,62 @@ import styles from './styles.module.css'
 const chat = [
     {
         profile: {
-            name: 'AppMasters',
-            photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+            host: true,
+            photo: "https://avatars1.githubusercontent.com/u/54597891?s=460&u=a79e990bc2376a2683afd3f4c723a07e2198b13d&v=4",
+            name: "Gabriel Fernandes"
         },
-        messages: [
-            "Teste 1",
-            "Teste 2",
-            "Teste 3"
-        ],
-        createAt: 1
+        message: "Olá App Masters",
+        createAt: new Date(2020, 12, 8, 10)
     },
     {
         profile: {
-            name: 'AppMasters',
-            photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+            host: true,
+            photo: "https://avatars1.githubusercontent.com/u/54597891?s=460&u=a79e990bc2376a2683afd3f4c723a07e2198b13d&v=4",
+            name: "Gabriel Fernandes"
         },
-        messages: [
-            "Teste 1",
-            "Teste 2",
-            "Teste 3"
-        ],
-        createAt: 2
+        message: "Tudo jóia?",
+        createAt: new Date(2020, 12, 8, 10, 1)
     },
     {
         profile: {
-            name: 'AppMasters',
-            photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+            host: true,
+            photo: "https://avatars1.githubusercontent.com/u/54597891?s=460&u=a79e990bc2376a2683afd3f4c723a07e2198b13d&v=4",
+            name: "Gabriel Fernandes"
         },
-        messages: [
-            "Teste 1",
-            "Teste 2",
-            "Teste 3"
-        ],
-        createAt: 3
+        message: "Gostaria de agradecer pelo treinamento de React, foi realmente muito engrandecedor!",
+        createAt: new Date(2020, 12, 8, 10, 2)
     },
     {
         profile: {
+            host: false,
             name: 'AppMasters',
             photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
         },
-        messages: [
-            "Teste 1",
-            "Teste 2",
-            "Teste 3"
-        ],
-        createAt: 4
+        message: "Olá Gabriel, tudo jóia!",
+        createAt: new Date(2020, 12, 8, 11)
+    },
+    {
+        profile: {
+            host: false,
+            name: 'AppMasters',
+            photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+        },
+        message: "Que bom que gostou!!",
+        createAt: new Date(2020, 12, 8, 12)
+    },
+    {
+        profile: {
+            host: true,
+            photo: "https://avatars1.githubusercontent.com/u/54597891?s=460&u=a79e990bc2376a2683afd3f4c723a07e2198b13d&v=4",
+            name: "Gabriel Fernandes"
+        },
+        message: "Espero que façamos próximos no futuro!",
+        createAt: new Date(2020, 12, 8, 12, 20)
     },
 
 ]
 
-
+chat.sort((item) => !item.createAt)
 
 function Chat(props) {
 
@@ -66,18 +72,18 @@ function Chat(props) {
 
     const submitMessage = () => {
 
-        
+
         setMessages(
             [
                 ...messages,
                 {
                     profile: {
-                        name: 'AppMasters',
-                        photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8J--iMuAtatjP0tDt6KZni7arnDwbSZ-59s86vpYs4DW9Jm4itlt3FuL6ZRz6pyxDVVPH2UdzLpDXPhbE26SeF_WNbvP-Fffq6Q&usqp=CAU&ec=45732301'
+                        host: true,
+                        photo: "https://avatars1.githubusercontent.com/u/54597891?s=460&u=a79e990bc2376a2683afd3f4c723a07e2198b13d&v=4",
+                        name: "Gabriel Fernandes"
                     },
-                    messages: [
-                        message
-                    ]
+                    message: message,
+                    createAt: new Date()
                 }
             ]
         )
@@ -89,10 +95,10 @@ function Chat(props) {
         <div className={styles.chat}>
             <div className={styles.displayChat}>
                 {
-                    messages.map((group, index) => {
+                    messages.map((messagem, index) => {
 
                         return (
-                            <Message key={index} profile={group.profile} message={group.messages} right={index % 2 ? true : false} />
+                            <Message key={index} profile={messagem.profile} message={messagem.message} right={!messagem.profile.host} />
                         )
                     })
                 }

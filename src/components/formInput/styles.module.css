@@ -31,3 +31,11 @@
     border:none;
     cursor: pointer;    
 }
+
+.activeButton{
+    background-color: transparent;
+    width: 10%;
+    border:none;
+    cursor: pointer; 
+    color: #61dafb;
+}
