@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/clone-instagram/static/css/main.fc51dd1a.chunk.css",
-    "main.js": "/clone-instagram/static/js/main.37c28d21.chunk.js",
-    "main.js.map": "/clone-instagram/static/js/main.37c28d21.chunk.js.map",
+    "main.css": "/clone-instagram/static/css/main.fabeccb7.chunk.css",
+    "main.js": "/clone-instagram/static/js/main.48590d1b.chunk.js",
+    "main.js.map": "/clone-instagram/static/js/main.48590d1b.chunk.js.map",
     "runtime-main.js": "/clone-instagram/static/js/runtime-main.058e980f.js",
     "runtime-main.js.map": "/clone-instagram/static/js/runtime-main.058e980f.js.map",
-    "static/js/2.89aff06a.chunk.js": "/clone-instagram/static/js/2.89aff06a.chunk.js",
-    "static/js/2.89aff06a.chunk.js.map": "/clone-instagram/static/js/2.89aff06a.chunk.js.map",
+    "static/js/2.091b4c89.chunk.js": "/clone-instagram/static/js/2.091b4c89.chunk.js",
+    "static/js/2.091b4c89.chunk.js.map": "/clone-instagram/static/js/2.091b4c89.chunk.js.map",
     "index.html": "/clone-instagram/index.html",
-    "static/css/main.fc51dd1a.chunk.css.map": "/clone-instagram/static/css/main.fc51dd1a.chunk.css.map",
-    "static/js/2.89aff06a.chunk.js.LICENSE.txt": "/clone-instagram/static/js/2.89aff06a.chunk.js.LICENSE.txt",
-    "static/media/logo.1bdb04a8.png": "/clone-instagram/static/media/logo.1bdb04a8.png"
+    "static/css/main.fabeccb7.chunk.css.map": "/clone-instagram/static/css/main.fabeccb7.chunk.css.map",
+    "static/js/2.091b4c89.chunk.js.LICENSE.txt": "/clone-instagram/static/js/2.091b4c89.chunk.js.LICENSE.txt",
+    "static/media/chatbubble-outline.6da22b2f.svg": "/clone-instagram/static/media/chatbubble-outline.6da22b2f.svg",
+    "static/media/heart-outline.421e5d3c.svg": "/clone-instagram/static/media/heart-outline.421e5d3c.svg",
+    "static/media/heart.9beb72fc.svg": "/clone-instagram/static/media/heart.9beb72fc.svg",
+    "static/media/logo.1bdb04a8.png": "/clone-instagram/static/media/logo.1bdb04a8.png",
+    "static/media/paper-plane-outline.30452713.svg": "/clone-instagram/static/media/paper-plane-outline.30452713.svg",
+    "static/media/pricetag-outline.b42e98cf.svg": "/clone-instagram/static/media/pricetag-outline.b42e98cf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.058e980f.js",
-    "static/js/2.89aff06a.chunk.js",
-    "static/css/main.fc51dd1a.chunk.css",
-    "static/js/main.37c28d21.chunk.js"
+    "static/js/2.091b4c89.chunk.js",
+    "static/css/main.fabeccb7.chunk.css",
+    "static/js/main.48590d1b.chunk.js"
   ]
 }
