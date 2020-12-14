@@ -44,21 +44,37 @@ function CreatePost(props) {
                 <h1 className={styles.title}>Criando Publicação</h1>
                 <form className={styles.form} onSubmit={e => e.preventDefault()}>
                     <div className={styles.card}>
-                        {
-                            (image && image.length > 10 )?
+                        <div className={styles.column}>
+                            {
+                                (image && image.length > 10) ?
 
-                                <img src={image} atl="Criando post" className={styles.previewImage} />
-                                :
-                                <div className={styles.awaitImage}>
-                                    <ion-icon size="large" name="image-outline"></ion-icon>
-                                </div>
-                        }
+                                    <img src={image} atl="Criando post" className={styles.previewImage} />
+                                    :
+                                    <div className={styles.awaitImage}>
+                                        <ion-icon size="large" name="image-outline"></ion-icon>
+                                    </div>
+                            }
 
-                        <input className={styles.inputFile} value={image} onChange={e => setImage(e.target.value)} type="text" placeholder="URL da Imagem" />
+                        </div>
 
-                        <input type="text" className={styles.inputTitle} placeholder="Título" value={title} onChange={e => setTitle(e.target.value)} />
-                        <textarea className={styles.inputLegend} placeholder="Descrição" onChange={e => setDescription(e.target.value)} defaultValue={description}></textarea>
-                        <button onClick={handleCreate} className={styles.submit}> Publicar </button>
+                        <div className={styles.column}>
+                            <div className={styles.groupInput}>
+
+                                <label className={styles.label}>URL da Imagem</label>
+                                <input className={styles.inputFile} value={image} onChange={e => setImage(e.target.value)} type="text" />
+                            </div>
+                            <div className={styles.groupInput}>
+
+                                <label>Título</label>
+                                <input type="text" className={styles.inputTitle} value={title} onChange={e => setTitle(e.target.value)} />
+                            </div>
+                            <div className={styles.groupInput}>
+                                <label>Descrição</label>
+                                <textarea className={styles.inputLegend} onChange={e => setDescription(e.target.value)} defaultValue={description}></textarea>
+
+                            </div>
+                            <button onClick={handleCreate} className={styles.submit}> Publicar </button>
+                        </div>
                     </div>
                 </form>
             </main>
