@@ -1,0 +1,45 @@
+.contentMessage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 16px;
+    height: 180px;
+}
+
+.error{
+    color: #8d0000;
+}
+
+.text{
+    color: #000000;
+    font-size:2rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    margin-top: 2rem;
+    height: 54px;
+    font-size: 1.6rem;
+    background-color:  #61dafb;
+    color:#ffffff;
+    transition: background-color 0.2s;
+}
+.button:hover{
+    background-color:  #1eceff;
+}
+
+.button:focus{
+    border: none;
+    outline: none;
+}
+
+.legendImage{
+    margin: 1rem 0;
+}

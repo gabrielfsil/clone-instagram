@@ -26,13 +26,7 @@ function Post({ post }) {
 
     const likePost = async () => {
 
-        if (liked) {
-
-
-            setLike(like - 1)
-            setLiked(false)
-
-        } else {
+        if (!liked) {
 
             setLike(like + 1)
             setLiked(true)

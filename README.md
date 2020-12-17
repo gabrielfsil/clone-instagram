@@ -16,3 +16,12 @@ yarn start
 ```
 
 Neste momento você poderá acessar [http://localhost:3000/](http://localhost:3000/) e ver sua aplicação em fucionamento.
+
+
+# Resumo do Instacode
+
+A aplicação simula algumas funcionalidade que são encontradas no instagram como criar uma publicação e interagir com ela através de comentários e curtidas.
+
+Os demais botões que aparecem como interação são meramente ilustrativos, pois não possui uma integração com a API.
+
+A página Direct também é apenas ilustrativa, pois também não se comunica com a API.

@@ -6,3 +6,19 @@
     flex-direction: row;
     margin-top: 5vh;
 }
+
+@media(max-width: 1200px){
+    .direct{
+        width: 720px;
+        
+    }
+    
+}
+
+@media(max-width: 960px){
+    .direct{
+        width: 560px;
+        
+    }
+    
+}

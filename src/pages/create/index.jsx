@@ -54,7 +54,7 @@ function CreatePost(props) {
                                         <ion-icon size="large" name="image-outline"></ion-icon>
                                     </div>
                             }
-
+                            <small className={styles.legendImage}>Escolha uma imagem para adicionar na sua publicação</small>
                         </div>
 
                         <div className={styles.column}>

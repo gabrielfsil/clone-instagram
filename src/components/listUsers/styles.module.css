@@ -5,10 +5,28 @@
     margin: 0;
     text-decoration: none;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .item{
     text-decoration: none;
     list-style: none;
     cursor: pointer;
+}
+
+
+@media(max-width: 1200px){
+    .list{
+        width: 320px;
+        
+    }
+    
+}
+
+@media(max-width: 960px){
+    .list{
+        width: 280px;
+        
+    }
+    
 }

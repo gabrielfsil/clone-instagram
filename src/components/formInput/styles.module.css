@@ -39,3 +39,7 @@
     cursor: pointer; 
     color: #61dafb;
 }
+
+.input:focus,.button:focus,.activeButton:focus{
+    outline: none;
+}

@@ -3,7 +3,6 @@
 }
 .form{
     background-color: #fff;
-    height: 75vh;
     width: 720px;
     border-radius: 16px;
     box-sizing: border-box;
@@ -12,6 +11,7 @@
     border: 0.5px solid #b9b9b9;
     padding: 8px;
     overflow-y: scroll;
+    height: 60vh;
 }
 
 .card{
@@ -46,7 +46,7 @@
     background-color: #ffffff;
     font-family: sans-serif;
     width: 100%;
-    height: 48px;
+    padding: 0.5rem;
     box-sizing: border-box;
 }
 
@@ -61,20 +61,35 @@
     font-family: sans-serif;
     width: 100%;
     box-sizing: border-box;
+    padding: 0.5rem;
 
+}
+
+.inputLegend:focus,.inputTitle:focus,.inputFile:focus{
+    outline: none;
 }
 
 .submit{
     width: 100%;
-    height: 4rem;
+    height: 54px !important;
     border: none;
-    background-color: #4383e4;
+    background-color:#61dafb;
     border-radius: 8px;
     color: #fff;
     margin-top: 1rem;
     font-size: 1.6rem;
     cursor: pointer;
     margin: 0;
+    transition: background-color 0.2s;
+}
+
+.submit:hover{
+    background-color:#00addd;
+
+}
+
+.submit:focus{
+    outline: none;
 }
 
 .column{
